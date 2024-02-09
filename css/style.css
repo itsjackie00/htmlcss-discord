@@ -23,3 +23,26 @@ body{
     background-color: var(--color-scondary);
     color: var(--color-primary);
 }
+/* header */
+header{
+    background-color: var(--color-header-bg);
+    color: var(--color-section-bg);
+}
+
+/* main */
+
+.section-bg{
+    background-color: var(--color-section-bg);
+}
+
+/* footer */
+footer{
+    background-color: var(--color-primary);
+    color: var(--color-scondary);
+}
+
+/* utility */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
