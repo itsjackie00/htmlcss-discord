@@ -28,6 +28,8 @@ header{
     background-color: var(--color-header-bg);
     color: var(--color-section-bg);
 }
+
+
 #hero{
     background-image: url("../img/jumbo.png");
     min-height: 500px;
@@ -65,7 +67,7 @@ footer{
     padding: 10px;
 }
 .small-container{
-    max-width: 800px;
+    max-width: 630px;
     margin: 0 auto;
     text-align: center;
 }
@@ -73,6 +75,9 @@ footer{
     max-width: 300px;
     margin: 0;
     text-align: center;
+}
+.intestazione{
+    padding-top: 20px;
 }
 
 /* color */
