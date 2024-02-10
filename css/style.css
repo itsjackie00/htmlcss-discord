@@ -69,11 +69,26 @@ footer{
     margin: 0 auto;
     text-align: center;
 }
+.small-container-2{
+    max-width: 300px;
+    margin: 0;
+    text-align: center;
+}
+
+/* color */
+.white{
+    color: var(--color-scondary); 
+    text-decoration: none;
+}
+/* buttons */
+.button{
+   border-bottom: 2px solid var(--color-scondary); 
+}
+    
 
 /* utility flex */
 .d-flex{
     display: flex;
-
 }
 .row-reverse{
     flex-direction: row-reverse;
@@ -81,7 +96,11 @@ footer{
 .space-between{
     justify-content: space-between;
 }
+.space-around{
+    justify-content: space-around;
+}
 .align-items-center{
     align-items: center;
     align-content: center;
 }
+
