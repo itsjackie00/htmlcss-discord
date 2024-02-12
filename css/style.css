@@ -7,6 +7,10 @@
 ul{
     list-style: none;
 }
+a{
+    text-decoration: none;
+}
+
 /* general */
 :root {
 	--color-scondary: #ffffff;
@@ -32,7 +36,7 @@ header{
 
 #hero{
     background-image: url("../img/jumbo.png");
-    min-height: 500px;
+    min-height: 800px;
     background-size: cover;
 }
 
@@ -71,11 +75,7 @@ footer{
     margin: 0 auto;
     text-align: center;
 }
-.small-container-2{
-    max-width: 300px;
-    margin: 0;
-    text-align: center;
-}
+
 .intestazione{
     padding-top: 20px;
 }
@@ -90,10 +90,12 @@ footer{
     text-decoration: none;
 }
 
+
 /* buttons */
 .button{
     text-decoration: none;
-    
+    display: inline-block;
+    padding: 10px;
 }
 .btn{
     padding: 6px 12px;
@@ -101,11 +103,22 @@ footer{
     color: var(--color-primary);
     border: 1px solid #c0c0c0;  
 }
+.black-btn{
+    padding: 6px 12px;
+    border-radius: 30px;
+    color: var(--color-scondary);
+    border: 1px solid black; 
+    background-color: var(--color-primary); 
+}
+
     
 
 /* utility flex */
 .d-flex{
     display: flex;
+}
+.flex-wrap{
+    flex-wrap: wrap;
 }
 .row-reverse{
     flex-direction: row-reverse;
