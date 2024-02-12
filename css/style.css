@@ -54,7 +54,7 @@ header{
     background-size: cover;
 }
 #cal-to-action{
-    padding: 100px;
+    padding: 60px;
 }
 
 /* main */
@@ -73,6 +73,9 @@ header{
 }
 #feature{
     min-height: 300px;
+}
+.tec-img{
+    width: 100%;
 }
 
 /* footer */
