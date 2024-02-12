@@ -28,6 +28,10 @@ p{
 }
 a{
     text-decoration: none;
+    color: var(--color-scondary);
+}
+footer ul li{
+    padding-top: 20px;
 }
 
 /* general */
@@ -105,17 +109,15 @@ footer{
 .footer-top{
     border-bottom: 1px solid var(--color-contrast);
 }
-.it{
-    padding-top: 15px;
 
-}
 .flag-title{
     padding-bottom: 18px;
+    color: var(--color-scondary);
 }
 .flag-pad{
     padding-bottom: 10px;
     padding-left: 15px;
-    padding-top: 15px;
+    padding-top: 20px;
 }
 
 
@@ -166,7 +168,7 @@ footer{
 .btn{
     padding: 10px 15px;
     border-radius: 30px;
-    color: var(--color-primary);
+    color: white;
     border: 1px solid #c0c0c0;  
 }
 .black-btn{
@@ -179,6 +181,12 @@ footer{
 .second{
     margin-top: 50px;
     background-color:#7289DA;
+}
+footer div button{
+    padding: 10px 15px;
+    border-radius: 30px;
+    background-color: #7289DA ;
+    border: 1px solid #7289DA; 
 }
 
     
