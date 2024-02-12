@@ -11,6 +11,9 @@ h2{
     font-size: 2em;
     padding-right:90px ;
 }
+h3{
+    color: #7289DA;
+}
 ul{
     list-style: none;
 }
@@ -77,6 +80,22 @@ header{
 .tec-img{
     width: 100%;
 }
+.flag{
+    width: 20px;
+}
+.drop-menu{
+    
+}
+.social{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 125px;
+}
+
+
+
 
 /* footer */
 footer{
@@ -86,6 +105,13 @@ footer{
 .footer-top{
     border-bottom: 1px solid var(--color-contrast);
 }
+.flag-title{
+    padding-bottom: 10px;
+}
+.flag-pad{
+    padding-bottom: 10px;
+}
+
 
 /* utility */
 .container{
@@ -122,6 +148,7 @@ footer{
     color: var(--color-scondary);
     text-decoration: none;
 }
+
 
 
 /* buttons */
