@@ -71,6 +71,7 @@ header{
     left: 0;
     background-color: var(--color-header-bg);
     width: 100%;
+    z-index: 1000;
 }
 
 /* main */
@@ -225,4 +226,23 @@ footer div button{
 }
 .align-content{
     align-content: center;
+}
+
+
+.dropdown{
+    width: 90px;
+    background-color: var(--color-section-bg);
+    color: #23272a;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    z-index: 1001;
+    display: none;
+}
+
+nav>ul li {
+    position: relative;
+}
+nav>ul li:hover .dropdown{
+    display: block;
 }
