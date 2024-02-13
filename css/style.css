@@ -63,6 +63,12 @@ header{
 #cal-to-action{
     padding: 60px;
 }
+/* nav bar */
+.navigation{
+    position: fixed;
+    background-color: var(--color-header-bg);
+    width: 100%;
+}
 
 /* main */
 .section-bg{
@@ -128,7 +134,7 @@ footer{
     padding: 20px;
 }
 .small-container{
-    max-width: 630px;
+    max-width: 800px;
     margin: 0 auto;
     text-align: center;
 }
